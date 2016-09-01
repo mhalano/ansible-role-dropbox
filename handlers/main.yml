@@ -1,0 +1,6 @@
+---
+# handlers file for dropbox
+
+- name: restart nautilus
+  command: nautilus -q
+  sudo: False
